@@ -4,3 +4,55 @@
   box-sizing: border-box;
 }
 
+/*.debug{
+  background-color: rgb(254, 105, 0, .2);
+  border: 1px solid black;
+}*/
+
+.d-flex{
+  display: flex;
+}
+
+.container{
+  margin: 0 auto;
+  max-width: 1400px;
+
+}
+
+header{
+  height: 55px;
+  background-color:#fe6900;
+}
+header .container{
+  height: 100%;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#fe6900;
+}
+
+header ul{
+  list-style: none;
+}
+header ul li{
+  display: inline-block;
+  margin: 0 2px;
+}
+
+header ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+header ul li a:hover{
+  text-decoration: underline;
+}
+
+header .logo{
+  color: white;
+  position: relative;
+  right: 50px;
+}
+
+header .icone{
+  color: white;
+}
