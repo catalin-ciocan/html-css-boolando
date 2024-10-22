@@ -4,10 +4,10 @@
   box-sizing: border-box;
 }
 
-/*.debug{
+.debug{
   background-color: rgb(254, 105, 0, .2);
   border: 1px solid black;
-}*/
+}
 
 .d-flex{
   display: flex;
@@ -15,7 +15,7 @@
 
 .container{
   margin: 0 auto;
-  max-width: 1400px;
+  max-width: 1100px;
 
 }
 
@@ -55,4 +55,49 @@ header .logo{
 
 header .icone{
   color: white;
+}
+
+main{
+  min-height: 200px;
+  background-color: aquamarine;
+}
+
+main .container{
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box{
+  background-color: blue;
+  border: 1px solid black;
+  margin: 50px 0px;
+  min-height: 500px;
+  min-width: 350px;
+  position: relative;
+}
+
+.box div{
+  position: absolute;
+  bottom: -57px;
+  left: 0px;
+  background-color: blueviolet;
+}
+
+h1{
+  font-size: 1.1rem;
+}
+
+p{
+  font-size: 0.8rem;
+}
+
+span{
+  font-size: 0.8rem;
+  color: red;
+}
+
+span del{
+  color: black;
+  padding-left: 10px;
 }
